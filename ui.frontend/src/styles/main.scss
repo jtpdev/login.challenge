@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align: center;
+  background-image: linear-gradient(#33383D, #1C1E21);
+  color: #E0E0E0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #33383D; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1C1E21; 
+  }

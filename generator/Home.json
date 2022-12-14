@@ -1,0 +1,47 @@
+{
+  "project-settings": {
+    "code-owner": "Login Challenge",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "vue",
+    "model-interface-pkg": "com.vue.core.models",
+    "model-impl-pkg": "com.vue.core.models.impl"
+  },
+  "name": "home",
+  "title": "Vue - Home",
+  "group": "Login Challenge - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "imgLogo",
+        "label": "Insira a logo",
+        "type": "image",
+        "json-expose": true,
+        "json-property": "imgLogo"
+      },
+      {
+        "field": "imgBg",
+        "label": "Insira a imagem de background",
+        "type": "image",
+        "json-expose": true,
+        "json-property": "imgBg"
+      }
+    ]
+  }
+}
